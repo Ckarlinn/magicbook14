@@ -1,14 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="683" scrolly="331.5" scale="0.9">
+  <tab name="init" type="InitTab" active="true" scrollx="682.9999999999998" scrolly="331.49999999999994" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="T|(-Dk/$lO9!ux0dB9C|" x="-670" y="-330">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">FALSE</field>
-      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
       <field name="PRESERVE_DRAW_BUF">FALSE</field>
       <field name="FADE_ANNOTATIONS">FALSE</field>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="606" scrolly="338.5" scale="0.9">
+  <tab name="main" type="MainTab" active="false" scrollx="606" scrolly="338.5" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="n+L/,iuI}#NUAMg+~A[j" x="-610" y="-190">
       <value name="ID">
         <shadow type="text" id="7.!lDF1m/M^R{#zb`[w!">

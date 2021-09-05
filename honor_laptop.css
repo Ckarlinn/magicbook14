@@ -392,7 +392,7 @@ display: none;
         overflow: scroll;
     }
     .modal-body ul{
-        top: 20%;
+        top: 0;
         position: relative;
     }
     .btn {
