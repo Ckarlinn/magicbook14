@@ -114,10 +114,11 @@ header .logo {
 }
 .detalles {
 	position: absolute;
-	left: 8vw;
-	top: 12vh;
-	width: 30%;
+	left: 10vw;
+	top: 13vh;
+    width: 30%;
 }
+
 .detalles li{
     display: flex;
     justify-content: space-between;
@@ -361,25 +362,25 @@ display: none;
         position: absolute;
         right: 25px;
     }
-    ul{
+    .list-info{
+        padding: 0;
         margin: 0;
-        padding: 0 !important;
-        position: relative;
-        top: 15%;
     }
     .list-info li {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
+        margin: 0;
+        padding: 0;
     }
     .list-info li img {
         width: 25%;
     }
     .list-info li p {
-        font-size: 21px;
+        font-size: 17px;
         line-height: 1;
-        width: 100%;
+        width: 75%;
         text-align: left;
         margin-left: 15px;
     }
@@ -389,11 +390,6 @@ display: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: scroll;
-    }
-    .modal-body ul{
-        top: 0;
-        position: relative;
     }
     .btn {
         display: flex !important;
@@ -413,7 +409,9 @@ display: none;
     #prueba .small-txt {
         margin: 0;
         padding: 0;
-        font-size: 15px !important;
-        line-height: 1.5;
-    }
+        font-size: 13px !important;
+        width: 90%;
+          line-height: 1.5;
 }
+     
+    }
