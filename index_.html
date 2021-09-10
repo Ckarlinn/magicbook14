@@ -13,11 +13,11 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="HONOR MagicBook X14">
   <meta name="twitter:description" content="**La duración real de la batería puede variar dependiendo de la configuración y el uso de la laptop.">
-  <meta name="twitter:image:src" content="#">
+  <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg">
   <!-- Open Graph -->
   <meta property="og:title" content="HONOR MagicBook X14">
-  <meta property="og:description" content="Las funciones y especificaciones (incluyendo pero no limitando la apariencia, el color y el tamaño) del producto real, además del contenido de la pantalla (incluyendo pero no limitando los fondos, la interfaz y los íconos) pueden tener variaciones. ">
-  <meta property="og:image" content="#">
+  <meta property="og:description" content="Las funciones y especificaciones (incluyendo pero no limitando la apariencia, el color y el tamaño) del producto real, además del contenido de la pantalla (incluyendo pero no limitando los fondos, la interfaz y los íconos) pueden tener variaciones.">
+  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
   <meta property="og:type" content="website">
 
   <meta name="generator" content="Verge3D 3.7.1">
@@ -102,18 +102,18 @@ Las funciones y especificaciones (incluyendo pero no limitando la apariencia, el
           </div>
 <div class="btn-wrap">
   <button id="estados" class="btn btn-primary mt-4" onclick="openModal()">
-    <img class="visible" style="margin-right: 0px;" width="23px" src="img/pais.png" alt=""> 
-    <img class="oculto" style="margin-right: 0px;" width="23px" src="img/pais_w.png" alt=""> 
+    <img class="visible" width="35px" src="img/contactanos_black.png" alt=""> 
+    <img class="oculto" width="35px" src="img/contactanos_.png" alt=""> 
     </button>
-    <p>País / Ciudad</p>
+    <p>Contáctanos</p>
 </div>
-<div class="btn-wrap">
+<!-- <div class="btn-wrap">
   <a id="ancleWord" href="https://wa.me/5580230675?text=¡Hola!, me gustaría conocer más sobre la HONOR MagicBook X 14." target="_blank">
     <img class="visible" width="35px" src="img/contactanos_black.png" alt=""> 
     <img class="oculto" width="35px" src="img/contactanos_.png" alt=""> 
     </a>
     <p>Ventas</p>
-</div>
+</div> -->
 
         </div>
       </div>
@@ -135,18 +135,18 @@ Las funciones y especificaciones (incluyendo pero no limitando la apariencia, el
     </div>
     <div class="btn world">
       <button id="estados" class="btn btn-primary mt-4" onclick="openModal()">
-        <img class="visible" style="margin-right: 0px;" width="23px" src="img/pais.png" alt=""> 
-        <img class="oculto" style="margin-right: 0px;" width="23px" src="img/pais_w.png" alt=""> 
+        <img class="visible" width="35px" src="img/contactanos_black.png" alt=""> 
+        <img class="oculto" width="35px" src="img/contactanos_.png" alt=""> 
         </button>
-        <p>País / <br> Ciudad</p>
+        <p>Contáctanos</p>
     </div>
-<div class="btn">
+<!-- <div class="btn">
   <a id="ancleWord" href="https://wa.me/5580230675?text=¡Hola!, me gustaría conocer más sobre la HONOR MagicBook X 14." target="_blank">
     <img class="visible" width="35px" src="img/contactanos_black.png" alt=""> 
     <img class="oculto" width="35px" src="img/contactanos_.png" alt=""> 
     </a>
     <p>Ventas</p>
-</div>
+</div> -->
 
     </div>
   </div>
@@ -278,7 +278,7 @@ Las funciones y especificaciones (incluyendo pero no limitando la apariencia, el
         state.innerText= stateWord;
       
       //Change the href and hide the modal
-      let link = `https://wa.me/${numbers}?text=¡Hola!, me gustaría conocer más sobre la HONOR MagicBook X 14.`
+      let link = location.href=`https://wa.me/${numbers}?text=¡Hola!, me gustaría conocer más sobre la HONOR MagicBook X 14.`
       ancleWord.setAttribute("href", link)
       myModal.hide()
     });
